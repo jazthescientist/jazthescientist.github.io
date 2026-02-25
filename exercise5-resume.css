@@ -1,0 +1,33 @@
+body {
+  background-color: #f7f9f6;
+  color: #24332c;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: #5f7d6e;
+  color: #ffffff;
+  padding: 1.5rem;
+}
+
+h2 {
+  color: #5f7d6e;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 1.5rem;
+}
+
+img {
+  float: right;
+  margin: 1rem 1.5rem 1rem 0;
+  border: 3px solid #5f7d6e;
+  max-width: 100%;
+}
+
+a {
+  color: #3e5f52;
+}
