@@ -1,0 +1,51 @@
+body {
+  background-color: #f7f9f6;
+  color: #24332c;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  background-color: #5f7d6e;
+  color: #ffffff;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  color: #5f7d6e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 1.5rem;
+  line-height: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  float: right;
+  margin: 1rem 1.5rem 1rem 0;
+  border: 3px solid #5f7d6e;
+  max-width: 100%;
+}
+
+a:link {
+  color: #0b3d91;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5a189a;
+}
+
+a:hover {
+  color: #9b2226;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #005f73;
+}
