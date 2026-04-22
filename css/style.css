@@ -188,7 +188,7 @@ a:hover {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
 
@@ -324,5 +324,117 @@ a:hover {
   .section-heading h2,
   .highlight-grid h2 {
     font-size: 1.7rem;
+  }
+}
+
+
+/* resume page  */
+.page-hero {
+  padding: 4.5rem 0 2rem;
+}
+
+.page-title {
+  margin: 0 0 1rem;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  color: #1f2d3d;
+}
+
+.page-intro {
+  max-width: 60ch;
+  margin: 0 0 1.5rem;
+  color: #4a5560;
+  font-size: 1rem;
+}
+
+.resume-contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.resume-contact p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.resume-section {
+  padding: 0 0 1.75rem;
+}
+
+.resume-card {
+  background: #ffffff;
+  border: 1px solid #d9dfd8;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 8px 24px rgba(31, 41, 51, 0.05);
+}
+
+.resume-card h2 {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  font-size: 1.6rem;
+  color: #1f2d3d;
+}
+
+.resume-item {
+  margin-bottom: 1.75rem;
+}
+
+.resume-item:last-child {
+  margin-bottom: 0;
+}
+
+.resume-item h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+  color: #1f2d3d;
+}
+
+.resume-meta {
+  margin: 0 0 0.5rem;
+  color: #506d5b;
+  font-weight: 600;
+}
+
+.resume-card p {
+  color: #4a5560;
+}
+
+.resume-card ul {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.resume-card li {
+  margin-bottom: 0.6rem;
+}
+
+.resume-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.resume-note {
+  background: #e6eee7;
+  border: 1px solid #cfd9d1;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.resume-note p {
+  margin: 0;
+  color: #1f2d3d;
+}
+
+.resume-bottom-space {
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 900px) {
+  .resume-two-column {
+    grid-template-columns: 1fr;
   }
 }
