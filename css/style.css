@@ -280,7 +280,7 @@ a:hover {
 .image-credit-block figcaption {
   margin-top: 0.4rem;
   font-size: 0.75rem;
-  color: #5f6b65;
+  color: #114d2f;
   line-height: 1.4;
 }
 
@@ -648,7 +648,7 @@ a[href*="linkedin.com"]:hover {
   margin-top: 0.45rem;
   font-size: 0.58rem;
   line-height: 1.35;
-  color: #6b7280;
+  color: #114d2f;
 }
 .experience-figure figcaption a {
   color: #506d5b;
